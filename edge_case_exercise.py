@@ -11,7 +11,4 @@ def move(my_list, direction):
 
     return my_list
 
-my_list = [0, 0, 0, 1, 0, 0]
-
-print(move(my_list, 'left'))
-print(move(my_list, 'right'))
+my_list = [0, 1, 0]
