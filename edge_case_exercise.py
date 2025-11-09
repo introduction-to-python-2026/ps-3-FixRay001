@@ -10,3 +10,8 @@ def move(my_list, direction):
         my_list[index_of_one - 1] = 1
 
     return my_list
+
+my_list = [0, 0, 0, 1, 0, 0]
+
+print(move(my_list, 'left'))
+print(move(my_list, 'right'))
